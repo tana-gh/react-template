@@ -7,15 +7,14 @@ import HelloPage   from './HelloPage'
 export default () => {
     return (
         <Router.HashRouter basename="/" hashType="slash">
-            <div>
-                <Mui.AppBar position="sticky">
-                    <Mui.Toolbar>
-                        <Mui.Typography>
-                            React Page
-                        </Mui.Typography>
-                    </Mui.Toolbar>
-                </Mui.AppBar>
-            </div>
+            <Mui.AppBar position="fixed">
+                <Mui.Toolbar>
+                    <Mui.Typography>
+                        React Page
+                    </Mui.Typography>
+                </Mui.Toolbar>
+            </Mui.AppBar>
+            <Mui.Toolbar/>
             <Router.Switch>
                 <Router.Route exact path="/">
                     <RootPage/>
