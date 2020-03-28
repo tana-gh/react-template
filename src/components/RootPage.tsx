@@ -9,8 +9,8 @@ export default () => {
 
     return (
         <div>
-            <Mui.Fab>
-                <Icons.TouchApp onClick={onHelloButtonClick}/>
+            <Mui.Fab onClick={onHelloButtonClick}>
+                <Icons.TouchApp/>
             </Mui.Fab>
         </div>
     )
