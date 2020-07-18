@@ -4,7 +4,7 @@ import * as Mui    from '@material-ui/core'
 import RootPage    from './RootPage'
 import HelloPage   from './HelloPage'
 
-export default () => {
+export default (): React.FunctionComponentElement<void> => {
     return (
         <Router.HashRouter basename="/" hashType="slash">
             <Mui.AppBar position="fixed">
