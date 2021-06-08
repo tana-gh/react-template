@@ -1056,6 +1056,30 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  │  └─ URL: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat
 │  ├─ @nodelib/fs.walk@1.2.6
 │  │  └─ URL: https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk
+│  ├─ @redux-saga/core@1.1.3
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/core
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ @redux-saga/deferred@1.1.2
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/deferred
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ @redux-saga/delay-p@1.1.2
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/delay-p
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ @redux-saga/is@1.1.2
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/is
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ @redux-saga/symbols@1.1.2
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/symbols
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ @redux-saga/types@1.1.0
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/types
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
 │  ├─ @testing-library/dom@7.31.0
 │  │  ├─ URL: https://github.com/testing-library/dom-testing-library
 │  │  ├─ VendorName: Kent C. Dodds
@@ -1090,6 +1114,8 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/history@4.7.8
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+│  ├─ @types/hoist-non-react-statics@3.3.1
+│  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/html-minifier-terser@5.1.1
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/istanbul-lib-coverage@2.0.3
@@ -1115,6 +1141,8 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  ├─ @types/prop-types@15.7.3
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/react-dom@17.0.5
+│  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+│  ├─ @types/react-redux@7.1.16
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
 │  ├─ @types/react-router-dom@5.1.7
 │  │  └─ URL: https://github.com/DefinitelyTyped/DefinitelyTyped.git
@@ -3332,6 +3360,10 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  ├─ react-is@17.0.2
 │  │  ├─ URL: https://github.com/facebook/react.git
 │  │  └─ VendorUrl: https://reactjs.org/
+│  ├─ react-redux@7.2.4
+│  │  ├─ URL: https://github.com/reduxjs/react-redux.git
+│  │  ├─ VendorName: Dan Abramov
+│  │  └─ VendorUrl: https://github.com/reduxjs/react-redux
 │  ├─ react-router-dom@5.2.0
 │  │  ├─ URL: https://github.com/ReactTraining/react-router.git
 │  │  └─ VendorName: React Training
@@ -3369,6 +3401,13 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  │  ├─ URL: https://github.com/sindresorhus/redent.git
 │  │  ├─ VendorName: Sindre Sorhus
 │  │  └─ VendorUrl: sindresorhus.com
+│  ├─ redux-saga@1.1.3
+│  │  ├─ URL: https://github.com/redux-saga/redux-saga/tree/master/packages/core
+│  │  ├─ VendorName: Yassine ELOUAFI
+│  │  └─ VendorUrl: https://redux-saga.js.org/
+│  ├─ redux@4.1.0
+│  │  ├─ URL: https://github.com/reduxjs/redux.git
+│  │  └─ VendorUrl: http://redux.js.org/
 │  ├─ regenerate-unicode-properties@8.2.0
 │  │  ├─ URL: https://github.com/mathiasbynens/regenerate-unicode-properties.git
 │  │  ├─ VendorName: Mathias Bynens
@@ -3848,6 +3887,18 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
 │  │  ├─ URL: git://github.com/feross/typedarray-to-buffer.git
 │  │  ├─ VendorName: Feross Aboukhadijeh
 │  │  └─ VendorUrl: http://feross.org/
+│  ├─ typescript-compare@0.0.2
+│  │  ├─ URL: git+https://github.com/ksxnodemodules/typescript-compare.git
+│  │  ├─ VendorName: Hoàng Văn Khải
+│  │  └─ VendorUrl: https://github.com/ksxnodemodules/typescript-compare#readme
+│  ├─ typescript-logic@0.0.0
+│  │  ├─ URL: git+https://github.com/ksxnodemodules/typescript-logic.git
+│  │  ├─ VendorName: Hoàng Văn Khải
+│  │  └─ VendorUrl: https://github.com/ksxnodemodules/typescript-logic#readme
+│  ├─ typescript-tuple@2.2.1
+│  │  ├─ URL: git+https://github.com/ksxnodemodules/typescript-tuple.git
+│  │  ├─ VendorName: Hoàng Văn Khải
+│  │  └─ VendorUrl: https://github.com/ksxnodemodules/typescript-tuple#readme
 │  ├─ unbox-primitive@1.0.1
 │  │  ├─ URL: git+https://github.com/ljharb/unbox-primitive.git
 │  │  ├─ VendorName: Jordan Harband
@@ -4057,4 +4108,4 @@ info "fsevents@1.2.13" is an optional dependency and failed compatibility check.
       ├─ URL: https://github.com/pieroxy/lz-string.git
       ├─ VendorName: pieroxy
       └─ VendorUrl: http://pieroxy.net/blog/pages/lz-string/index.html
-Done in 0.97s.
+Done in 1.07s.
