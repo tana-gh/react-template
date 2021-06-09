@@ -42,7 +42,7 @@ const mainReducer = (state = initialMainState, action: Action) => {
                             : []
                     ),
                     ...(
-                        action.payload.index < state.contentText.length
+                        action.payload.index < state.contents.length
                             ? state.contents.slice(action.payload.index + 1, state.contents.length)
                             : []
                     )
