@@ -6,18 +6,21 @@ import IndexPage                    from './IndexPage'
 import HelloPage                    from './HelloPage'
 import NotFoundPage                 from './NotFoundPage'
 import { State }                    from '../store/states'
-import * as WebSockets              from '../utils/webSockets'
 
 export default (): React.FunctionComponentElement<void> => {
-    const [ socketListener, setSocketListener ] = React.useState<WebSockets.EventListener | undefined>(undefined)
-
     const [ loading ] = useSelector((state: State) => [ state.mainReducer.loading ])
     const dispatch    = useDispatch()
     
     React.useEffect(() => {
-        if (socketListener) WebSockets.removeEventListener(socketListener)
-        setSocketListener(WebSockets.addEventListener(dispatch))
-    }, [ dispatch ])
+        setTimeout(() => {
+            dispatch({
+                type   : 'SET_LOADING',
+                payload: {
+                    loading: false
+                }
+            })
+        }, 1000)
+    }, [])
 
     return (
         <Router.HashRouter basename="/" hashType="slash">
